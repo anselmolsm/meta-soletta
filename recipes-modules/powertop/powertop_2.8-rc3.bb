@@ -6,10 +6,10 @@ DEPENDS = "ncurses libnl pciutils"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=12f884d2ae1ff87c09e5b7ccc2c4ca7e"
 
-SRC_URI = "http://01.org/sites/default/files/downloads/powertop/powertop-${PV}.tar.gz"
+SRC_URI = "https://github.com/fenrus75/powertop/archive/v2.8-rc3.tar.gz"
 
-SRC_URI[md5sum] = "e0d686e47daaf7e9d89031f7763432ef"
-SRC_URI[sha256sum] = "8d4b1490e2baad4467c0ded3c423db4472dcbf7b2dd8f8f2a928f54047c678ca"
+SRC_URI[md5sum] = "c31b3b19b0a2edb84cc3a2e4bd9439b6"
+SRC_URI[sha256sum] = "9c23dc59d480804a21a7a8d74e2374b86e164d247d879d013d96cac63cdb1a3f"
 
 inherit autotools gettext pkgconfig
 
